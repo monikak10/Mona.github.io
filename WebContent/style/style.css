@@ -1,1 +1,139 @@
 /* Add styles for truYum application here */
+body {
+        height: 100%;
+        width: 100%;
+}
+header {
+		background-color: #4a5b91;
+        color: #f5f5fa;
+		height: 95px;
+		font-size: 20pt;
+		
+		
+}
+div {
+		height: 600px;
+		
+}
+footer {
+		background-color: #adb3af;
+		height: 100px;
+		margin-right: 10px;
+		font-size: 15pt;
+		
+}
+a {
+	color: #1a1c1a;
+}
+
+img {
+		height: 50px;
+        width: 50px;
+}
+#cart {
+        float: right;
+        margin-right: 20px;
+        margin-top: 30px;
+        color: #f5f5fa;
+}           
+#menu {
+        float: right;
+        margin-right: 20px;
+        margin-top: 30px;
+        color: #f5f5fa;
+}              
+
+
+.cont1 {
+	  margin-top: 50px;
+      margin-left: 600px;
+	  font-size: 15pt;
+	  width: 900px;
+	  margin-bottom: 450px;
+	 
+}
+.cont2 {
+	  margin-top: 50px;
+      margin-left: 600px;
+	  font-size: 20pt;
+	  margin-bottom: 50px;
+	 
+}
+.head {
+	margin-left: 30px;
+}
+.head-color {
+	color : #14db28;
+	margin-left: 50px;
+	font-size: 15pt;
+	margin-bottom: 600px;
+}
+.txt-left {
+	text-align: left;
+	width: 80px;
+}
+.txt-center {
+	text-align: center;
+	width: 80px;
+}
+.txt-right {
+	text-align: right;
+	width: 80px;
+}
+.status {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+#col-button {
+	background-color: #1478db;
+	font-size: 15px;
+	color: #f5f5fa;
+}
+	
+.status1 {
+	margin-top: 50px;
+	margin-left: 350px;
+	font-size: 30pt;
+}
+.status1 {
+	margin-top: 50px;
+	margin-left: 350px;
+	font-size: 30pt;
+}
+.status2 {
+	margin-top: 50px;
+	margin-left: 600px;
+	font-size: 30pt;
+}
+.head-color1 {
+	color: #14db28;
+	margin-left: 650px;
+	font-size: 15pt;
+	margin-bottom: 1px;
+}	
+#h5-color {
+	color: #a8b5a8;
+	margin-left: 50px;
+	font-size: 15pt;
+	margin-bottom: 600px;
+}
+#h1-link {
+	color: #1478db;
+	
+}
+#link-color {
+	color: #1a1c1a;
+}
+.copy {
+	margin-bottom: 100px;
+	
+}
+.c1{
+	margin-top: 50px;
+    margin-left: 600px;
+	font-size: 30pt;
+	width: 900px;
+	margin-bottom: 50px;
+}
+
+

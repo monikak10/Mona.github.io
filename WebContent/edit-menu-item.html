@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+    <head>
+	    <title>Menu item list</title>
+		<link rel="stylesheet" type="text/css" href="./style/style.css" />
+		<script type="text/javascript" src="./js/script.js"></script>
+    </head>
+	<body>
+	     <header>
+			<span class="head">truYum</span>
+			<img src="./images/truyum-logo-light.png"/>
+			<a id="menu" href="./menu-item-list-admin.htm" >Menu</a>	
+		 </header>
+		
+		<form name="Form" method="post" onsubmit="return validate()">
+			<h1 class="cont2"> Edit Menu Items</h1>
+			<table class="cont1">
+				<tr rowspan="4">
+					<th class="txt-left">
+						<label for="txt-field">Name</label>
+					</th>
+				</tr>
+			
+				<tr rowspan="4">
+					<td>
+						<input type="text" id="txt-field" name="txt" value="Sandwich"/>
+					</td>
+				</tr>
+		
+				<tr>	
+					<th class="txt-left">
+						<label for="price-field">Price(Rs.)<label>
+					</th>
+					<th class="txt-left">
+						<label for="price-field">Active</label>
+					</th>
+					<th class="txt-left">
+						<label for="rb1">Date of Launch</label>
+					</th>
+					<th class="txt-left">
+						<label for="Main Course">Category</label>
+					</th>		
+				</tr>
+			
+				<tr>
+					<td>
+						<input type="text" name="price" value="97" id="price-field"/>
+					</td>
+					<td>
+						<input type="radio" name="rb" id="rb1"  checked />Yes
+						<input type="radio" name="rb" id="rb2"/>No
+					</td>
+					<td>
+						<input type="text" name="dol" id="dol-field" value="27/04/2022"/>
+					</td>
+					<td>
+						<select value="Main Course" name="Main Course" id="Main Course">
+							<option>Starters</option>
+							<option>Main Course</option>
+							<option>Desserts</option>
+							<option>Drinks</option>
+						</select>
+					</td>
+				</tr>
+			
+				<tr rowspan="4">
+					<td>
+						<input type="checkbox" name="ch" checked />Free Delivery
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input type="submit" value="Save" name="sb" id="col-button" />
+					</td>
+				</tr>
+			</table>
+		</form>
+		<footer>
+			<span class="copy">
+				<h5>Copyright@2019</h5>
+			</span>
+		</footer>
+	</body>
+</html>	
