@@ -18,7 +18,7 @@ function validate()
 		document.Form.price.focus();
 		return false;
 	}
-	var r = /[^0-9]/
+	var r = /[^0-9 /.]/
 	if (r.test(b)) {
 		alert("Price has to be a number");
 		document.Form.price.focus();
