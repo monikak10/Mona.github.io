@@ -8,5 +8,5 @@ public interface CartDao {
 
 	public List<MenuItem> getAllCartItems(long userId) throws CartEmptyException;
 
-	public void removeCartItem(long userId, long menuItemId);
+	public void removeCartItem(long userId, long menuItemId) throws CartEmptyException;
 }
