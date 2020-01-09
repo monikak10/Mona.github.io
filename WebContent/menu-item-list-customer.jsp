@@ -31,8 +31,7 @@
 						<c:if test="${!menu.freeDelivery}">No</c:if></td>
 					<td class="txt-right">${menu.price}</td>
 					<td class="txt-center">${menu.category}</td>
-					<td class="txt-center"><a
-						href="AddToCart?menuItemId=${menu.id}">Add to Cart</a></td>
+					<td class="txt-center"><a href="AddToCart?menuItemId=${menu.id}">Add to Cart</a></td>
 				</tr>
 			</c:forEach>
 
