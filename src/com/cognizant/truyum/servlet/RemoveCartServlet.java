@@ -13,6 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.cognizant.truyum.dao.CartDao;
 import com.cognizant.truyum.dao.CartDaoCollectionImpl;
+import com.cognizant.truyum.dao.CartDaoSqlImpl;
 import com.cognizant.truyum.dao.CartEmptyException;
 import com.cognizant.truyum.dao.MenuItemDao;
 import com.cognizant.truyum.dao.MenuItemDaoCollectionImpl;
@@ -41,7 +42,7 @@ public class RemoveCartServlet extends HttpServlet {
 			throws ServletException, IOException {
 
 		try {
-			CartDao cartDao = new CartDaoCollectionImpl();
+			CartDao cartDao = new CartDaoSqlImpl();
 			long menuItemId = Long.parseLong(request.getParameter("menuItemId"));
 			cartDao.removeCartItem(1, menuItemId);
 			request.setAttribute("msg", "Item Removed to Cart Successfully.");

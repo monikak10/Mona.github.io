@@ -50,7 +50,7 @@ SELECT * FROM user;
 SELECT me_name,me_free_delivery,me_price,me_category 
 FROM menu_item
 WHERE me_active='Yes' 
-AND me_date_of_launch < (SELECT(CURDATE()));
+AND me_date_of_launch < CURDATE();
 
 
 -- ------------------------------------------------------------------------------
